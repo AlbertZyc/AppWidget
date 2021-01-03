@@ -3,14 +3,16 @@
     android:layout_height="match_parent"
     android:padding="@dimen/widget_margin">
 
-    <ImageView
+    <ImageButton
         android:id="@+id/iv_grass"
+        android:background="@null"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:src="@mipmap/img_grass_base" />
 
     <TextView
+        android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/iv_grass"

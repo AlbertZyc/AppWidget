@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Demo">
         <receiver android:name=".AlbertAppWidget">
             <intent-filter>
-                <action android:name="com.example.joy.action.CHANGE_IMAGE"/>
+                <action android:name="zyc.albert.action.CLICK_GRASS"/>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="android.appwidget.action.ACTION_APPWIDGET_OPTIONS_CHANGED" />
                 <action android:name="android.appwidget.action.ACTION_APPWIDGET_RESTORED" />
