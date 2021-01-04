@@ -14,7 +14,6 @@ import android.widget.RemoteViews
 import zyc.albert.demo.R.layout.ablert_app_widget
 import java.util.*
 
-
 /**
  * Implementation of App Widget functionality.
  */
